@@ -558,14 +558,18 @@ section {
     background: var(--main-color);
 }
 
-.footer .credit {
+.footer .copyright {
     font-size: 2rem;
     color: #fff;
     font-weight: lighter;
     padding: 1.5rem;
 }
 
-.footer .credit span {
+.footer .copyright a {
+    color: #fff;
+}
+
+.footer .copyright a:hover {
     color: var(--main-color);
 }
 
